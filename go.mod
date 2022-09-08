@@ -1,4 +1,4 @@
-module github.com/Mrs4s/MiraiGo
+module github.com/shacha086/MiraiGo
 
 go 1.19
 
