@@ -724,8 +724,16 @@ func (c *QQClient) getSKey() string {
 	return string(c.sig.SKey)
 }
 
+func (c *QQClient) GetSKey() string {
+	return c.getSKey()
+}
+
 func (c *QQClient) getCookies() string {
 	return fmt.Sprintf("uin=o%d; skey=%s;", c.Uin, c.getSKey())
+}
+
+func (c *QQClient) GetCookies() string {
+	return c.getCookies()
 }
 
 func (c *QQClient) getCookiesWithDomain(domain string) string {
@@ -738,12 +746,20 @@ func (c *QQClient) getCookiesWithDomain(domain string) string {
 	}
 }
 
+func (c *QQClient) GetCookiesWithDomain(domain string) string {
+	return c.getCookiesWithDomain(domain)
+}
+
 func (c *QQClient) getCSRFToken() int {
 	accu := 5381
 	for _, b := range []byte(c.getSKey()) {
 		accu = accu + (accu << 5) + int(b)
 	}
 	return 2147483647 & accu
+}
+
+func (c *QQClient) GetCSRFToken() int {
+	return c.getCSRFToken()
 }
 
 func (c *QQClient) editMemberCard(groupCode, memberUin int64, card string) {
