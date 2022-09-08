@@ -10,15 +10,15 @@ import (
 	"github.com/fumiama/imgsz"
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/binary"
-	"github.com/Mrs4s/MiraiGo/client/internal/highway"
-	"github.com/Mrs4s/MiraiGo/client/internal/network"
-	"github.com/Mrs4s/MiraiGo/client/pb/cmd0x388"
-	highway2 "github.com/Mrs4s/MiraiGo/client/pb/highway"
-	"github.com/Mrs4s/MiraiGo/client/pb/oidb"
-	"github.com/Mrs4s/MiraiGo/internal/proto"
-	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/shacha086/MiraiGo/binary"
+	"github.com/shacha086/MiraiGo/client/internal/highway"
+	"github.com/shacha086/MiraiGo/client/internal/network"
+	"github.com/shacha086/MiraiGo/client/pb/cmd0x388"
+	highway2 "github.com/shacha086/MiraiGo/client/pb/highway"
+	"github.com/shacha086/MiraiGo/client/pb/oidb"
+	"github.com/shacha086/MiraiGo/internal/proto"
+	"github.com/shacha086/MiraiGo/message"
+	"github.com/shacha086/MiraiGo/utils"
 )
 
 func init() {

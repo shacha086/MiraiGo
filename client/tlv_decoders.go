@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/shacha086/MiraiGo/utils"
 
-	"github.com/Mrs4s/MiraiGo/binary"
+	"github.com/shacha086/MiraiGo/binary"
 )
 
 // --- tlv decoders for qq client ---

@@ -13,10 +13,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/binary"
-	"github.com/Mrs4s/MiraiGo/client/pb/richmedia"
-	"github.com/Mrs4s/MiraiGo/internal/proto"
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/shacha086/MiraiGo/binary"
+	"github.com/shacha086/MiraiGo/client/pb/richmedia"
+	"github.com/shacha086/MiraiGo/internal/proto"
+	"github.com/shacha086/MiraiGo/utils"
 )
 
 /* -------- GroupHonorInfo -------- */

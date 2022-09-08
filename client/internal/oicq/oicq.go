@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/binary"
-	"github.com/Mrs4s/MiraiGo/internal/crypto"
+	"github.com/shacha086/MiraiGo/binary"
+	"github.com/shacha086/MiraiGo/internal/crypto"
 )
 
 type Codec struct {

@@ -8,11 +8,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Mrs4s/MiraiGo/client/internal/network"
-	"github.com/Mrs4s/MiraiGo/client/internal/oicq"
-	"github.com/Mrs4s/MiraiGo/internal/packets"
-	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/shacha086/MiraiGo/client/internal/network"
+	"github.com/shacha086/MiraiGo/client/internal/oicq"
+	"github.com/shacha086/MiraiGo/internal/packets"
+	"github.com/shacha086/MiraiGo/message"
+	"github.com/shacha086/MiraiGo/utils"
 )
 
 // ConnectionQualityInfo 客户端连接质量测试结果
